@@ -2,7 +2,7 @@
 
 A guide for running the Weather Research and Forecasting (WRF) Model within the scope of the NoICE project. 
 
-# Prerequisites 
+# Prerequisites
 
 `NoICE-Simulations` need various previous steps to be done before you can do the runs.
 
@@ -12,7 +12,7 @@ A guide for running the Weather Research and Forecasting (WRF) Model within the 
 
 # Introduction to WRF Model
 
-WRF is a fully compressible, non-hydrostatic numerical model (with a hydrostatic option) that uses a terrain-following hydrostatic pressure coordinate in the vertical and the Arakawa-C grid staggering for horizontal discretization. WRF is a community model used in a wide variety of applications including couple-model applications (e.g. Samala et al., 2013), idealised simulations (e.g. Steele et al., 2013), hurricane research (e.g. Davis et al., 2007) and regional climate research (e.g. Chotamonsak et al., 2011).
+WRF is a fully compressible, non-hydrostatic numerical model (with a hydrostatic option) that uses a terrain-following hydrostatic pressure coordinate in the vertical and the Arakawa-C grid staggering for horizontal discretization. WRF is a community model used in a wide variety of applications including couple-model applications (e.g. Samala et al., 2013), idealised simulations (e.g. Steele et al., 2013), hurricane research (e.g. Davis et al., 2007) and regional climate research (e.g. Chotamonsak et al., 2011)
 
 Different versions of the model exist such as PolarWRF (a modified version of the WRF model for polar regions; please note that recent versions of the "traditional" WRF model already include most of the new features available in PolarWRF), ClimWRF (modified version for climate studies) and PlanetWRF (modified version for some Solar System planets including Mars and Titan). You can also couple the atmospheric model with a chemistry module (WRF-CHEM) (Javier wanted to use it in Aberdeen so it's good to be familiar with it) or an ocean model such as Regional Ocean Modelling System (ROMS) even though recent versions of WRF already come with the option of coupling the atmospheric model with a 3D or slab ocean model.
 
